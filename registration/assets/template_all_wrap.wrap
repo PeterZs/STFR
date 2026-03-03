@@ -1,0 +1,391 @@
+{
+    "commonDir": "",
+    "formatVersion": 64,
+    "nodes": {
+        "FastWrapping": {
+            "color": {
+                "a": 0,
+                "b": 0,
+                "g": 0,
+                "r": 0
+            },
+            "hasColor": false,
+            "isAlwaysVisible": true,
+            "nodeId": 6,
+            "nodeType": "FastWrapping",
+            "params": {
+                "autocompute": {
+                    "value": false
+                },
+                "geomFixed": {
+                    "connectedNodeId": 1
+                },
+                "geomFloating": {
+                    "connectedNodeId": 5
+                },
+                "globalControlPointsWeightFinal": {
+                    "value": 10
+                },
+                "globalControlPointsWeightInitial": {
+                    "value": 10
+                },
+                "globalPoint2PlaneFittingWeight": {
+                    "value": 1
+                },
+                "globalPoint2PointFittingWeight": {
+                    "value": 0.10000000149011612
+                },
+                "globalSmoothWeightMax": {
+                    "value": 1
+                },
+                "globalSmoothWeightMin": {
+                    "value": 0.05000000074505806
+                },
+                "maxDp": {
+                    "value": 0.009999999776482582
+                },
+                "maxOptimizationIterations": {
+                    "value": 100
+                },
+                "minCosBetweenNormals": {
+                    "value": 0.6499999761581421
+                },
+                "minDp": {
+                    "value": 0.0020000000949949026
+                },
+                "nICPIterations": {
+                    "value": 7
+                },
+                "nNodesToUse": {
+                    "value": 8
+                },
+                "nOptimizationIterations": {
+                    "value": 20
+                },
+                "nSubdivisions": {
+                    "value": 3
+                },
+                "normalizeSampling": {
+                    "value": true
+                },
+                "points": {
+                    "connectedNodeId": 4
+                },
+                "polygons": {
+                },
+                "samplingMax": {
+                    "value": 10
+                },
+                "samplingMin": {
+                    "value": 0.10000000149011612
+                },
+                "samplingType": {
+                    "value": 0
+                }
+            },
+            "x": -79,
+            "y": 333
+        },
+        "LoadGeom": {
+            "color": {
+                "a": 0,
+                "b": 0,
+                "g": 0,
+                "r": 0
+            },
+            "hasColor": false,
+            "isAlwaysVisible": false,
+            "nodeId": 0,
+            "nodeType": "LoadGeom",
+            "params": {
+                "fileName": {
+                    "value": "C:/Users/03/Desktop/template.obj"
+                },
+                "rotation": {
+                    "value": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "scale": {
+                    "value": 1
+                },
+                "texture": {
+                },
+                "translation": {
+                    "value": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "visualParam": {
+                    "value": {
+                        "colorBack": {
+                            "b": 23,
+                            "g": 23,
+                            "r": 23
+                        },
+                        "colorFront": {
+                            "b": 255,
+                            "g": 56,
+                            "r": 12
+                        },
+                        "colorWire": {
+                            "b": 34,
+                            "g": 26,
+                            "r": 17
+                        },
+                        "isLightingEnabled": true,
+                        "isSurfaceEnabled": true,
+                        "isWireframeEnabled": true,
+                        "surfaceFillType": 1
+                    }
+                }
+            },
+            "x": -262,
+            "y": -42
+        },
+        "LoadGeom1": {
+            "color": {
+                "a": 0,
+                "b": 0,
+                "g": 0,
+                "r": 0
+            },
+            "hasColor": false,
+            "isAlwaysVisible": true,
+            "nodeId": 1,
+            "nodeType": "LoadGeom",
+            "params": {
+                "fileName": {
+                    "value": "C:/Users/03/Desktop/output.obj"
+                },
+                "rotation": {
+                    "value": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "scale": {
+                    "value": 1
+                },
+                "texture": {
+                },
+                "translation": {
+                    "value": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "visualParam": {
+                    "value": {
+                        "colorBack": {
+                            "b": 23,
+                            "g": 23,
+                            "r": 23
+                        },
+                        "colorFront": {
+                            "b": 255,
+                            "g": 56,
+                            "r": 12
+                        },
+                        "colorWire": {
+                            "b": 34,
+                            "g": 26,
+                            "r": 17
+                        },
+                        "isLightingEnabled": true,
+                        "isSurfaceEnabled": true,
+                        "isWireframeEnabled": true,
+                        "surfaceFillType": 1
+                    }
+                }
+            },
+            "x": -1,
+            "y": -42
+        },
+        "LoadPoints": {
+            "color": {
+                "a": 0,
+                "b": 0,
+                "g": 0,
+                "r": 0
+            },
+            "hasColor": false,
+            "isAlwaysVisible": true,
+            "nodeId": 2,
+            "nodeType": "LoadPoints",
+            "params": {
+                "baseName": {
+                    "value": "Point"
+                },
+                "fileName": {
+                    "value": "C:/Users/03/Desktop/bfm.json"
+                },
+                "format": {
+                    "value": 2
+                },
+                "geom": {
+                    "connectedNodeId": 0
+                },
+                "padding": {
+                    "value": 2
+                },
+                "showLabels": {
+                    "value": true
+                }
+            },
+            "x": -262,
+            "y": 32
+        },
+        "LoadPoints1": {
+            "color": {
+                "a": 0,
+                "b": 0,
+                "g": 0,
+                "r": 0
+            },
+            "hasColor": false,
+            "isAlwaysVisible": true,
+            "nodeId": 3,
+            "nodeType": "LoadPoints",
+            "params": {
+                "baseName": {
+                    "value": "Point"
+                },
+                "fileName": {
+                    "value": "C:/Users/03/Desktop/tgt.json"
+                },
+                "format": {
+                    "value": 2
+                },
+                "geom": {
+                    "connectedNodeId": 1
+                },
+                "padding": {
+                    "value": 2
+                },
+                "showLabels": {
+                    "value": true
+                }
+            },
+            "x": -1.000000987297966,
+            "y": 32.00000120049879
+        },
+        "PointsToPointPairs": {
+            "color": {
+                "a": 0,
+                "b": 0,
+                "g": 0,
+                "r": 0
+            },
+            "hasColor": false,
+            "isAlwaysVisible": true,
+            "nodeId": 4,
+            "nodeType": "PointsToPointPairs",
+            "params": {
+                "ifNoPair": {
+                    "value": 0
+                },
+                "matchBy": {
+                    "value": 0
+                },
+                "pointsLeft": {
+                    "connectedNodeId": 2
+                },
+                "pointsRight": {
+                    "connectedNodeId": 3
+                }
+            },
+            "x": -18.088175215194866,
+            "y": 140.2525017526035
+        },
+        "RigidAlignment": {
+            "color": {
+                "a": 0,
+                "b": 0,
+                "g": 0,
+                "r": 0
+            },
+            "hasColor": false,
+            "isAlwaysVisible": false,
+            "nodeId": 5,
+            "nodeType": "RigidAlignment",
+            "params": {
+                "fitRotation": {
+                    "value": true
+                },
+                "fitScale": {
+                    "value": true
+                },
+                "fitTranslation": {
+                    "value": true
+                },
+                "geomFixed": {
+                    "connectedNodeId": 1
+                },
+                "geomFloating": {
+                    "connectedNodeId": 0
+                },
+                "points": {
+                    "connectedNodeId": 4
+                }
+            },
+            "x": -181,
+            "y": 205
+        },
+        "SaveGeom": {
+            "color": {
+                "a": 0,
+                "b": 0,
+                "g": 0,
+                "r": 0
+            },
+            "hasColor": false,
+            "isAlwaysVisible": true,
+            "nodeId": 7,
+            "nodeType": "SaveGeom",
+            "params": {
+                "createDirectories": {
+                    "value": true
+                },
+                "dracoCompression": {
+                    "value": 7
+                },
+                "dracoNormalQuant": {
+                    "value": 30
+                },
+                "dracoTexCoordQuant": {
+                    "value": 30
+                },
+                "dracoVertexQuant": {
+                    "value": 30
+                },
+                "fileName": {
+                    "value": "C:/Users/03/Desktop/Frame######.obj"
+                },
+                "geom": {
+                    "connectedNodeId": 6
+                },
+                "includeTransform": {
+                    "value": true
+                },
+                "saveNormals": {
+                    "value": false
+                }
+            },
+            "x": -153,
+            "y": 438
+        }
+    },
+    "pythonCode": "",
+    "timeline": {
+        "current": 0,
+        "max": 25,
+        "min": 0
+    }
+}

@@ -1,0 +1,15 @@
+.vscode/*
+*.py[cod]
+
+matting/model/*
+
+reconstruction/2d-gaussian-splatting/*
+
+registration/pretrained/*
+registration/align/AlbedoMMFitting/data/FLAME2020/generic_model.pkl
+registration/wrap/*
+registration/face_alignment/*
+registration/face_detection/*
+
+workspace/*
+data/*
