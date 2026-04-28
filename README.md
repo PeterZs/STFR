@@ -3,6 +3,7 @@
 An fully-automatic and efficient pipeline to reconstruct topologically-consistent 3D facial geometry (with texture) from a smartphone-captured video.
 
 This code has been used in many of my research projects, including:
+* [OpenDelight](https://yxuhan.github.io/OpenDelight/index.html): Learning a Delighting Prior for Facial Appearance Capture in the Wild (SIGGRAPH'2026)
 * [WildCap](https://yxuhan.github.io/WildCap/index.html): Facial Albedo Capture in the Wild via Hybrid Inverse Rendering (CVPR'2026)
 * [DoRA](https://yxuhan.github.io/DoRA/index.html): Facial Appearance Capture at Home with Patch-Level Reflectance Prior (SIGGRAPH'2025)
 
@@ -44,7 +45,7 @@ The above code takes approximately 21 minutes to execute on a single NVIDIA RTX 
 If you have any questions or are interested in collaboration, please contact Yuxuan Han (hanyx22@mails.tsinghua.edu.cn).
 
 ## Citation
-Please include the following citations if it helps your research:
+Please include the following citations if this codebase helps your research:
 
     @inproceedings{han2025dora,
         author = {Han, Yuxuan and Lyu, Junfeng and Sheng, Kuan and Que, Minghao and Zhang, Qixuan and Xu, Lan and Xu, Feng},
@@ -57,5 +58,13 @@ Please include the following citations if it helps your research:
         author = {Han, Yuxuan and Ming, Xin and Li, Tianxiao and Shen, Zhuofan and Zhang, Qixuan and Xu, Lan and Xu, Feng},
         title = {WildCap: Facial Albedo Capture in the Wild via Hybrid Inverse Rendering},
         journal={CVPR},
+        year={2026}
+    }
+
+    
+    @inproceedings{han2026opendelight,
+        author = {Han, Yuxuan and Ming, Xin and Li, Tianxiao and Shen, Zhuofan and Zhang, Qixuan and Xu, Lan and Xu, Feng},
+        title = {Learning a Delighting Prior for Facial Appearance Capture in the Wild},
+        booktitle = {SIGGRAPH},
         year={2026}
     }
